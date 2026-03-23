@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-header {
+            text-align: center;
+        }
+        .user-info {
+            margin: 20px 0;
+        }
+        .user-info img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .watch-history {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        .movie {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-header">
+        <h1>User Profile</h1>
+        <div class="user-info">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h2>Username: badnation71</h2>
+            <p>Email: user@example.com</p> <!-- Placeholder -->
+        </div>
+    </div>
+
+    <h2>Watch History</h2>
+    <div class="watch-history">
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Title">
+            <p>Movie Title 1</p>
+        </div>
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Title">
+            <p>Movie Title 2</p>
+        </div>
+        <div class="movie">
+            <img src="https://via.placeholder.com/150" alt="Movie Title">
+            <p>Movie Title 3</p>
+        </div>
+        <!-- Add more movie entries as needed -->
+    </div>
+
+</body>
+</html>
